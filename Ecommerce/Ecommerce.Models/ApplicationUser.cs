@@ -13,7 +13,7 @@ namespace Ecommerce.Models
     public class ApplicationUser : IdentityUser
     {
         [Required]
-        public required string Name { get; set; }
+        public string Name { get; set; } = null!;
 
         public string? StreetAddress { get; set; }
         public string? City { get; set; }
