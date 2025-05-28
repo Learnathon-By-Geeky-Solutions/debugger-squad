@@ -54,7 +54,7 @@ jobs:
             /d:sonar.tests="Ecommerce" \
             /d:sonar.test.inclusions="**/Ecommerce.Tests/**/*.cs" \
             /d:sonar.coverage.exclusions="**/Program.cs,**/Startup.cs" \
-            /d:sonar.exclusions="**/bin/**,**/obj/**,**/*.Designer.cs,**/Migrations/**,**/*.css,**/*.cshtml" \
+            /d:sonar.exclusions="**/bin/**,**/obj/**,**/*.Designer.cs,**/Migrations/**,**/*.css,**/*.cshtml,**/*.cshtml.cs" \
             /d:sonar.sourceEncoding="UTF-8"
 
       - name: Build the solution
